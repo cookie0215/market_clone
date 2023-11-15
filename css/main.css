@@ -13,7 +13,7 @@ article {
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  box-shadow: 1px 1px 5px #dedede;
+  box-shadow: 1px 1px 5px var(--color-second);
 }
 
 .article-info {
@@ -31,6 +31,7 @@ article {
 .article-info__title {
   font-size: 1.6rem;
   font-weight: bold;
+  color: var(--color-primary);
 }
 
 .article-info__des {
@@ -47,7 +48,7 @@ article {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: #959595dd;
+  background-color: var(--color-second);
   position: absolute;
   top: 50%;
   right: 0;
@@ -65,8 +66,8 @@ article {
   cursor: pointer;
   width: 120px;
   height: 50px;
-  background-color: #ea7908;
-  box-shadow: 2px 2px 3px #a1a1a1;
+  background-color: var(--point-primary);
+  box-shadow: 2px 2px 3px var(--color-second);
   border-radius: 50px;
   position: fixed;
   bottom: calc(20% - 60px);

@@ -5,6 +5,13 @@
 @import "main.css";
 
 
+/* 변수 설정 */
+:root {
+  --point-primary: #ea7908;
+  --color-primary: #1d1d1d;
+  --color-second: #a8a8a8dd;
+}
+
 /* 시스템상 폰트 적용 */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
