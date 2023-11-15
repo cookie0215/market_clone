@@ -58,3 +58,25 @@ article {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+
+/* 글쓰기 버튼 */
+.write-btn {
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  background-color: #ea7908;
+  box-shadow: 2px 2px 3px #a1a1a1;
+  border-radius: 50px;
+  position: fixed;
+  bottom: calc(20% - 60px);
+  right: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
