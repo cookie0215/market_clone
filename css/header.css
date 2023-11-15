@@ -1,0 +1,60 @@
+header {
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+/* header-info 관련 */
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header-info__icons img {
+  width: 20px;
+}
+
+.header-info__time {
+  font-weight: bold;
+}
+
+
+/* header-menu 관련 */
+.header-menu {
+  border: 1px solid green;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu__area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu__area>.title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.header-menu__area>.icon {
+  width: 24px;
+}
+
+.header-menu__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu__icons>div {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.header-menu__icons img {
+  width: 100%;
+}
