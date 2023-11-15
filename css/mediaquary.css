@@ -1,0 +1,22 @@
+.screen-msg {
+  width: 100vw;
+  height: 100vh;
+  background-color: tomato;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+  color: white;
+}
+
+/* 화면이 최대 500 이하인 경우에만 보여줌 */
+@media screen and (max-width: 500px) {
+  .screen-msg {
+    display: none;
+  }
+}
